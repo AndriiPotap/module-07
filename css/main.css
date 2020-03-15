@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* containers */
+
+.container{
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+.container_header{
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+}
+.container_main{
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Header */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    margin-top: 50px;
+}
+
+.logo_text {
+    font-size: 26px;
+    font-family: "Wisdom Script AI";
+    color: #fee079
+  }
+  
+  .menu_text{
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #3f3f3f;
+    text-transform: uppercase;
+    line-height: 2.929;
+    font-weight: bold;
+  }
+
+  .menu_text:hover{
+    color: #fee079;
+  }
+
+  /* Main */
+  /* central block */
+  .central_block1{
+      display: block;
+      text-align: center;
+      margin-bottom: 4px;
+  }
+  .central_block1_bot{
+    padding-top: 100px;
+    color: #ffffff
+  }
+
+  .central_block_text1{
+    font-family: 'Montserrat-Bolt';
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .central_block2{
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+}
+  .central_block2_bot{
+    color: #777777;
+  }
+.central_block_text2{
+  font-family: Noto Serif;
+
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+}
+
+    /* BLOCKS */
+.blocks_holder{
+  display: flex;
+  margin-bottom: 140px;
+  justify-content: space-between;
+}
+.block{
+  width: 288px;
+}
+
+.block_img{
+  text-align: center;
+  margin-bottom: 26px;
+}
+.block_name{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat-Bolt";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+.block_text{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: rgb(119, 119, 119);
+line-height: 1.5;
+
+text-align: center;
+}
+
+/* Background */
+.block_forms{
+  display: flex;
+  justify-content: space-between;
+}
+.main_bot-section{
+  background-image: url(../img/bachground.png);
+}
+
+/* Forms */
+.input{
+  width: 456px;
+  height: 52px;
+  margin-bottom: 28px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Montserrat-Bolt', sans-serif;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
+
+.input_com{
+  width: 455px;
+  height: 211px;  
+  border-radius: 5px;
+  resize: none;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: 'Montserrat-Bolt', sans-serif;
+  color: #777777;
+  text-transform: uppercase;
+
+}
+.block_forms-buttom{
+  text-align: center;
+  padding-bottom: 114px;
+}
+
+.input_but{
+  text-align: center;
+  color: #ffffff;
+  background-color: #fed136;
+  border: 0;
+  width: 240px;
+  height: 65px;
+  font-size: 18px;
+  font-family: 'Montserrat-Bolt', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input:invalid:focus {
+  outline: 3px solid red;
+  outline-offset: -8px;
+
+}
+.input:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+}
+.input_com:invalid:focus {
+  outline: 3px solid red;
+  outline-offset: -8px;
+
+}
+.input_com:valid:focus {
+  outline: 3px solid green;
+  outline-offset: -8px;
+}
