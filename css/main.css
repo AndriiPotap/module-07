@@ -65,6 +65,7 @@
 
   .central_block_text1{
     font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
   }

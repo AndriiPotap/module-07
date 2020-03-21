@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'Noto Serif';
-    src: url('/fonts/NotoSerif/NotoSerif-Italic.woff2') format('woff2'),
-        url('/fonts/NotoSerif/NotoSerif-Italic.woff2') format('woff');
+    src: url('../fonts/NotoSerif/NotoSerif-Italic.woff2') format('woff2'),
+        url('../fonts/NotoSerif/NotoSerif-Italic.woff2') format('woff');
     font-weight: normal;
     font-style: italic;
 }
