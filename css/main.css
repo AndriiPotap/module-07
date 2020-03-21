@@ -64,7 +64,7 @@
   }
 
   .central_block_text1{
-    font-family: 'Montserrat-Bolt';
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
   }
@@ -101,7 +101,7 @@
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
-  font-family: "Montserrat-Bolt";
+  font-family: 'Montserrat-Bold', sans-serif;
   color: rgb(34, 34, 34);
   font-weight: bold;
 }
@@ -133,7 +133,7 @@ text-align: center;
   border-radius: 5px;
   padding-left: 10px;
   font-size: 14px;
-  font-family: 'Montserrat-Bolt', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   text-transform: uppercase;
   color: #bbbbbb;
 }
@@ -146,7 +146,7 @@ text-align: center;
   padding-left: 10px;
   padding-top: 15px;
   font-size: 14px;
-  font-family: 'Montserrat-Bolt', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   color: #777777;
   text-transform: uppercase;
 
@@ -164,7 +164,7 @@ text-align: center;
   width: 240px;
   height: 65px;
   font-size: 18px;
-  font-family: 'Montserrat-Bolt', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   text-transform: uppercase;
   border-radius: 5px;
   cursor: pointer;
