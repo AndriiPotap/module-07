@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+  overflow-x:hidden; 
+}
 /* containers */
 
 .container{
@@ -123,6 +125,7 @@ text-align: center;
   justify-content: space-between;
 }
 .main_bot-section{
+  background-size: cover;
   background-image: url(../img/bachground.png);
 }
 
